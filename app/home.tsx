@@ -13,7 +13,7 @@ import {
 import { SafeAreaView } from "react-native-safe-area-context";
 import { WebView } from "react-native-webview";
 
-const TARGET_URL = "www.ec-mall.com";
+const TARGET_URL = "https://www.ec-mall.com";
 
 export default function ModalScreen() {
   const webRef = useRef<WebView>(null);
