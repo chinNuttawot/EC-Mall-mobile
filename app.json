@@ -8,17 +8,21 @@
     "scheme": "ecmallmobile",
     "userInterfaceStyle": "automatic",
     "ios": {
+      "bundleIdentifier": "com.chin-sdc.ecmallmobile",
+      "buildNumber": "1",
       "supportsTablet": true
     },
     "android": {
       "versionCode": 1,
-      "adaptiveIcon": {
-        "foregroundImage": "./assets/images/favicon.png",
-        "backgroundColor": "#ffffff"
-      },
+      "package": "com.chin_sdc.ecmallmobile",
       "edgeToEdgeEnabled": true,
       "predictiveBackGestureEnabled": false,
-      "package": "com.chin_sdc.ecmallmobile"
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/android-icon-foreground.png",
+        "backgroundImage": "./assets/images/android-icon-background.png",
+        "monochromeImage": "./assets/images/android-icon-monochrome.png",
+        "backgroundColor": "#ffffff"
+      }
     },
     "web": {
       "output": "static",
